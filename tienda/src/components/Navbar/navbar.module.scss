@@ -1,10 +1,22 @@
 .container {
   display: flex;
-  background-color: blue;
-  color: white;
-  justify-content: space-around;
+  background-color: rgb(206, 206, 206);
+  color: rgb(31, 30, 30);
+  justify-content:space-between;
+  padding: 10px;
+  text-decoration: none;
+
 
   &:hover {
-    background-color: yellow;
+    background-color: rgb(105, 105, 105);
+    color: white;
   }
 }
+
+.nav {
+  display: flex;
+  margin-left: 5rem;
+  font-weight: bold;
+  color: gray;
+}
+
